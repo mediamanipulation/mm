@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>This media has been mannipulated!</h1>
+      <h1>This media has been manipulated!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              text='This is information about pic one.'
+              label='Analog'
+              path='/art'
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              text='This is information about pic 2'
+              label='Digital'
+              path='/art'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              label='Digital'
+              path='/art'
             />
             <CardItem
               src='images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              label='Analog'
               path='/products'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              label='Analog'
+              path='/products'
             />
           </ul>
         </div>

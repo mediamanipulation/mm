@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+//import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -11,7 +11,7 @@ function HeroSection() {
       <h2> MEDIAMANIPULATION</h2>
      <p>we can manipulate your media!</p> 
       <div className='hero-btns'>
-       <Button
+       {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
@@ -25,7 +25,7 @@ function HeroSection() {
           onClick={console.log('hey')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
-        </Button> 
+        </Button>  */}
       </div>
     </div>
   );

@@ -45,7 +45,12 @@
 .title{
   margin-top: -600px;
 }
-
+@media screen and (max-width: 1450px) {
+  .title{
+    margin-top: -550px;
+    font-size: 70px;
+  }
+}
 @media screen and (max-width: 960px) {
   .title{
     margin-top: -600px;
@@ -58,3 +63,15 @@
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .title{
+    margin-top: -690px;
+    font-size: 30px;
+  }
+}
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
